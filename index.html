@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <!---navbar--->
+    <div id="bg">
+      <div class="container">
+        <nav>
+            <img src="logo3.jpg" class="logo">
+            <ul>
+               <li><a href="#" class="nav-link">Home</a></li>
+               <li><a href="#about" class="nav-link">About</a></li>
+               <li><a href="#projects" class="nav-link">Projects</a></li>
+               <li><a href="#achieve" class="nav-link">Achievements and Certifications</a></li>
+               <li><a href="#Contact" class="nav-link">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="maintext">
+          <p><u>Full Stack MERN Developer</u> in progress.</p>
+          <h1>Hey there!<br> I'm <span>Nandini Jaiswal</span></h1>
+        </div>
+      </div>
+      </div>
+      <!-- -----about--- -->
+    <div id="about" class="section">
+      <div class="box">
+        <div class="row">
+          <div class="col1">
+            <img src="ai5.jpg">
+          </div>
+          <div class="col2">
+            <h1 class="text">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti quis mollitia nihil quo, optio dolorum modi, nemo libero, velit consectetur non necessitatibus? Cupiditate quibusdam est esse culpa eaque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis non vero corporis expedita ducimus reiciendis accusamus labore odit! Quibusdam saepe velit nemo minus quos odit est quae iure! Nostrum, eaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam maiores ipsam beatae ut. Necessitatibus voluptas assumenda rem praesentium provident suscipit facilis minus! Id qui ipsum ducimus ullam, dignissimos eligendi sint.</p>
+
+            <div class="subs">
+              <p class="link-sub active-link" onclick="opentab('skills')">Skills</p>
+              <p class="link-sub"onclick="opentab('Experience')">Experience</p>
+              <p class="link-sub"onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="sub-content current-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br>Website Development using AI</li>
+                <li><span>Mern Stack</span><br>MongoDB,Express.JS,ReactJS,NodeJS</li>
+                <li><span>Deployment</span><br>AWS,Azure</li>
+              </ul>
+            </div>
+            <div class="sub-content" id="Experience">
+              <ul>
+                <li><span>2025 - current</span><br>Web Development intern in Skillcraft</li>
+                <li><span>2025 - current</span><br>BCA from BCWCC</li>
+              </ul>
+            </div>
+            <div class="sub-content" id="Education">
+              <ul>
+                <li><span>Expected in 2026</span><br>Bca</li>
+                <li><span>2023</span><br>Grade 12 completed</li>
+                <li><span>2021</span><br>Grade 10 completed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!---projects--->
+    <div id="projects" class="section">
+      <div class="p-box">
+        <h1 class="p-subs">My Projects</h1>
+        <div class="projects-list">
+          <div>
+            <i class="fa-regular fa-file"></i>
+          <h2>Responsive landing page</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, laudantium eum tenetur accusamus voluptatem vel asperiores vero earum tempora, neque, consectetur rerum optio inventore minima. At maiores deserunt unde saepe.</p>
+          <a href="#">Learn More.</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-stopwatch"></i>
+          <h2>Stop Web Watch</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, laudantium eum tenetur accusamus voluptatem vel asperiores vero earum tempora, neque, consectetur rerum optio inventore minima. At maiores deserunt unde saepe.</p>
+          <a href="#">Learn More.</a>
+          </div>
+          <div>
+          <i class="fa-solid fa-xmark"></i> <i class="fa-regular fa-circle"></i>
+          <h2>Tic Tac Toe</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, laudantium eum tenetur accusamus voluptatem vel asperiores vero earum tempora, neque, consectetur rerum optio inventore minima. At maiores deserunt unde saepe.</p>
+          <a href="#">Learn More.</a>
+          </div>
+          <div>
+          <i class="fa-solid fa-list-check"></i>
+          <h2>To-do app</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, laudantium eum tenetur accusamus voluptatem vel asperiores vero earum tempora, neque, consectetur rerum optio inventore minima. At maiores deserunt unde saepe.</p>
+          <a href="#">Learn More.</a>
+          </div>
+    </div>
+    </div>
+    </div>
+    <!---acheivements and certificates-->
+  <div id="achieve" class="section">
+      <div class="box">
+         <h1 class="certi">Achievements and Certificates</h1>
+         <div class="certificates">
+          <div class="work">
+            <img src="c-4.jpg">
+            <div class="layer">
+              <h3>Swayam GenAI</h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="c-4.jpg">
+            <div class="layer">
+              <h3>Oracle Ai course</h3>
+            </div>
+          </div>
+          <div class="work">
+            <img src="c-4.jpg">
+            <div class="layer">
+              <h3>SkillCraft</h3>
+            </div>
+          </div>
+         </div>
+  </div>
+  </div>  
+  <!---contact--->
+<div id="Contact" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="contactleft">
+        <h1 class="p-subs">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>nandinijaiswal@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>84242442424</p>
+        <div class="social-icons">
+        <a href="https://www.instagram.com/jaiss1304?igsh=MWFqdDByaGhjemM2dA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/share/1CeSfMKQco/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://x.com/jais1304?t=FG52X_xvjC67m3_N2W8fKg&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/nandini-jaiswal-b9b7b6225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a> 
+        <a href="#" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+      </div>
+      <a href="CG_gen_CV.pdf" download target="_blank" class="btn">Download CV</a>
+      </div>
+      <div class="contactright">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+      <span id="msg"></span>
+    </div>
+  </div>
+  <!--copyright-->
+<div class="copyright">© 2025 Nandini Jaiswal. Protected by copyright… and made with <i class="fa-solid fa-heart"></i> and good vibes.</div>
+</div>       
+    <script>
+      var sublinks = document.getElementsByClassName("link-sub");
+      var subcontent = document.getElementsByClassName("sub-content");
+      
+      function opentab(subname){
+          for (sublink of sublinks){
+            sublink.classList.remove("active-link");
+          }
+          for (subcontents of subcontent){
+            subcontents.classList.remove("current-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(subname).classList.add("current-tab");
+      } 
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzIObnMxz1k2pCie_fxJVeOOKMCFVM8hEAoH_g_YEhFYbf4XDKi_rczEfUfslwXE_8m/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Your message has been sent"
+        setTimeout(function(){
+            msg.innerHTML=""
+      },2000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+    const sections = document.querySelectorAll(".section");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 60;
+        const sectionHeight = section.clientHeight;
+
+        if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+          current = section.getAttribute("id");
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+</html>
